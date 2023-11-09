@@ -23,3 +23,12 @@ DB_DATABASE=/path/assoluto/del/database/database.sqlite
 
 Eseguire le migration
 `php artisan migrate`
+
+## Comandi disponibili
+```
+  product:list                                Elenca i prodotti disponibili dentro al magazzino
+  product:orders                              Elenca gli ordini effettuati
+  product:purchase  <productId> <quantity>    Compra un prodotto
+  product:register  <name> <quantity> <price> Registra una nuova tipologia di prodotto nel magazzino
+  product:replenish <productId> <quantity>    Aggiunge nuovi prodotti nel magazzino
+```
